@@ -1,0 +1,64 @@
+.background1 {
+    height: 500px;
+    background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgb(184, 132, 227) 100%);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.banner-img {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.banner-text {
+
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    border-right: .05em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 2s steps(20, end) forwards,
+        blink-caret .75s infinite;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 51%
+    }
+}
+
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-text {
+        padding: 0;
+        visibility: hidden;
+    }
+}

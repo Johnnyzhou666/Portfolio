@@ -1,0 +1,27 @@
+p {
+    font-size: 20px;
+    padding: 0 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+.panel-heading {
+    background-color: rgb(184, 132, 227);
+    color: black;
+}
+
+@media screen and (max-width: 950px) {
+    .project {
+        display: grid;
+    }
+
+    .item {
+        margin: 20px;
+    }
+}

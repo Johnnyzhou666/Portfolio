@@ -1,0 +1,27 @@
+p {
+    font-size: 20px;
+    padding: 0 15%;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+.back {
+    text-align: center;
+
+}
+
+.purple {
+    color: #c770f0;
+}
+
+.about-activity {
+    list-style: none !important;
+    text-align: left !important;
+    padding-left: 1px !important;
+}
+
+.mar-left {
+    margin-left: 170px;
+}
