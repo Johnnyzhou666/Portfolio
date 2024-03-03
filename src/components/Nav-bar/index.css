@@ -23,7 +23,10 @@
 .navbar-right {
     margin-right: 5px;
 }
-
+.logo{
+    margin-left: auto;
+    margin-top: 6px;
+}
 @media screen and (max-width: 770px) {
     .navbar-nav {
         margin-left: 20px;

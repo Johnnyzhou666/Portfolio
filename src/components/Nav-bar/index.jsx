@@ -45,6 +45,9 @@ const Navbar = () => {
                                 offset={-150}
                                 duration={500} ><i class="fa-regular fa-address-card"></i>Contact</Link>
                         </li>
+                        <li class="nav-item logo">
+                            <a href="https://github.com/Johnnyzhou666" style={{textDecoration:'none'}}><i class="fa-brands fa-github fa-2xl" style={{color: '#000000'}}></i></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
