@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div id="navbarNav" style={{ width: '100%' }}>
                     <ul class="navbar-nav dis">
                         <div className="navbar-header header-top">
-                            <a className="navbar-brand" href="/" style={{ color: 'rgb(184, 132, 227)' }}>JonyZ</a>
+                            <a className="navbar-brand" href="https://johnnyzhou666.github.io/Portfolio/" style={{ color: 'rgb(184, 132, 227)' }}>JonyZ</a>
                         </div>
                         <li class="nav-item">
 
