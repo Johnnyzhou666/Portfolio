@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import './index.css';
+
 export default class Footer extends Component {
     render() {
         return (
@@ -10,9 +12,14 @@ export default class Footer extends Component {
                         <span className="bi bi-chevron-up"></span>
                     </a>
                     <p>Return to Top</p>
-                    <h2 class="text-center" id="contact">CONTACT</h2>
-                    <p class="font"><span class="bi bi-pin-map-fill"></span> Toronto, Canada</p>
-                    <p class="font"><span class="bi bi-envelope"></span><a href="zhouzq9@gmail.com"> zhouzq9@gmail.com</a></p>
+                    <a href="javascript:void(0)">
+                        <Link className="nav-link" to="footer"
+                            smooth={true}
+                            offset={200}
+                            duration={500} ><h2 className="text-center" id="contact">CONTACT</h2></Link>
+                    </a>
+                    <p className="font"><span className="bi bi-pin-map-fill"></span> Toronto, Canada</p>
+                    <p className="font"><span className="bi bi-envelope"></span><a href="zhouzq9@gmail.com"> zhouzq9@gmail.com</a></p>
                     <br />
                 </footer>
             </div>

@@ -1,3 +1,6 @@
+#home{
+    margin-top: 50px;
+}
 .background1 {
     height: 500px;
     background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgb(184, 132, 227) 100%);
@@ -56,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1349px) {
     .banner-text {
         padding: 0;
         visibility: hidden;

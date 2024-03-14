@@ -8,7 +8,7 @@ export default class About extends Component {
         return (
             <Card className="quote-card-view">
                 <Card.Body>
-                    <div class="container-fluid back" style={{ textAlign: "justify" }} id="about" >
+                    <div className="container-fluid back" style={{ textAlign: "justify" }} id="about" >
                         <h2 className="text-center" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                             WHO <strong className="purple">AM I?</strong>
                         </h2>

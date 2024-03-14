@@ -26,4 +26,7 @@ h2 {
     .skills-card {
         margin: 20px;
     }
+    #skills p{
+        display: none;
+    }
 }
