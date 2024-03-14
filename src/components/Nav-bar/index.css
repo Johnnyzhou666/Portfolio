@@ -4,16 +4,16 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 4px;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 10000;
 }
 
 .dis {
     display: flex;
     margin-left: 15px;
-    
+
 }
 
 .header-top {
@@ -28,22 +28,34 @@
 .navbar-right {
     margin-right: 5px;
 }
-.logo{
+
+.logo {
     margin-top: 6px;
     margin-left: 10px;
 }
+
 .li {
     margin-left: 20px;
-  }
-  
-  .li:hover {
+}
+
+.li:hover {
     color: white;
-  }
-@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
     .navbar-nav {
         margin-left: 20px;
     }
-    .navbar{
+
+    .navbar {
         position: static;
+    }
+
+    .li {
+        margin-left: 0px;
+    }
+    .logo {
+        margin-top: 3px;
+        margin-left: 0px;
     }
 }

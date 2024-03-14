@@ -44,7 +44,7 @@ const Navbar = () => {
                             <Link className="nav-link" to="letter"
                                 spy
                                 smooth={true}
-                                offset={130}
+                                offset={128}
                                 duration={500} ><i className="fa-regular fa-address-card"></i>Contact</Link>
                         </li></a>
                         <li className="nav-item logo">

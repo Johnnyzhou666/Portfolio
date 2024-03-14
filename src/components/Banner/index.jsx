@@ -6,7 +6,8 @@ export default class Banner extends Component {
             <div className="background1" id="home">
                 <div className="flex-container">
                     <div className="text-center container">
-                        <h1 className="banner-text">Johnny Zhou</h1>
+                        <br/>
+                        <h1><span className="banner-text">Johnny Zhou</span></h1>
                         <br />
                         <br />
                         <h3>Hi! I'm Johnny, a graduated Software student with a deep passion for technology and innovation. I am keen on discovering and challenging.</h3>
