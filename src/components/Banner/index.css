@@ -1,6 +1,7 @@
-#home{
+#home {
     margin-top: 50px;
 }
+
 .background1 {
     height: 500px;
     background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgb(184, 132, 227) 100%);
@@ -18,6 +19,7 @@
 
 .container {
     margin-top: 20px;
+
 }
 
 .banner-text {
@@ -33,6 +35,12 @@
     animation:
         typing 2s steps(20, end) forwards,
         blink-caret .75s infinite;
+
+}
+
+.animation1 {
+    width: max-content;
+    margin: auto;
 }
 
 
