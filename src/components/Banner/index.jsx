@@ -12,7 +12,7 @@ export default class Banner extends Component {
                     <br />
                     <h3>Hi! I'm Johnny, a graduated Software student with a deep passion for technology and innovation. I am keen on discovering and challenging.</h3>
                 </div>
-                <div style={{ width: "100%" }}><img className="banner-img" src={process.env.PUBLIC_URL + '/about.png'} alt="" /></div>
+                <div style={{ width: "100%" }}><img className="banner-img floating" src={process.env.PUBLIC_URL + '/about.png'} alt="" /></div>
 
             </div>
         )
