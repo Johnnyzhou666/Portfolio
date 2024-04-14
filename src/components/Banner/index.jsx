@@ -3,7 +3,7 @@ import './index.css';
 export default class Banner extends Component {
     render() {
         return (
-            <div className="background1" id="home">
+            <div className="background1 flex-container" id="home">
 
                 <div className="text-center container">
                     <br />
