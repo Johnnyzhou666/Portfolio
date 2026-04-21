@@ -19,7 +19,7 @@ export default class Footer extends Component {
                             duration={500} ><h2 className="text-center" id="contact">CONTACT</h2></Link>
                     </a>
                     <p className="font"><span className="bi bi-pin-map-fill"></span> Toronto, Canada</p>
-                    <p className="font"><span className="bi bi-envelope"></span><a href="zhouzq9@gmail.com"> zhouzq9@gmail.com</a></p>
+                    <p className="font"><span className="bi bi-envelope"></span><a href="mailto:zhouzq9@gmail.com"> zhouzq9@gmail.com</a></p>
                     <br />
                 </footer>
             </div>
