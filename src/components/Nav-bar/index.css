@@ -59,3 +59,28 @@
         margin-left: 0px;
     }
 }
+
+.nav-link {
+  
+    cursor: pointer !important; 
+    
+  
+    transition: color 0.3s ease-in-out;
+}
+
+
+.nav-link.active {
+    color: rgb(184, 132, 227) !important; 
+    font-weight: bold !important;
+}
+
+.force-contact-active .nav-link.active:not(#contact-nav-link) {
+    color: rgba(0, 0, 0, 0.55) !important; 
+    font-weight: normal !important;
+}
+
+
+.force-contact-active #contact-nav-link {
+    color: rgb(184, 132, 227) !important; 
+    font-weight: bold !important;
+}
