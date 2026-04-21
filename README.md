@@ -1,7 +1,7 @@
-# Personnel Portfolio: https://johnnyzhou666.github.io/Portfolio/
+
 # Johnny Zhou - Personal Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blueviolet?style=for-the-badge)](https://johnnyzhou666.github.io/Portfolio/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blueviolet?style=for-the-badge)](https://johnnyzhou666.github.io/Portfolio/)https://johnnyzhou666.github.io/Portfolio/
 
 A responsive and interactive personal portfolio website built to showcase my software engineering projects, technical skills, and professional background.
 
