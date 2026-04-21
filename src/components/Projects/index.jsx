@@ -43,7 +43,7 @@ export default class Projects extends Component {
                                         </div>
                                     </a>
                                     <div className="panel-body">
-                                        <p>Trained a outline classifier using 'OpenCV' with Python. The classifier sucessfully distinguish what shapes of figures are.</p>
+                                        <p>Trained a outline classifier using 'OpenCV' with Python. The classifier successfully distinguish what shapes of figures are.</p>
                                     </div>
                                 </div>
                             </div>
